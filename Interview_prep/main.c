@@ -10,7 +10,8 @@
 
 int main(int argc, const char * argv[]) 
 {
-    maximal_square();
-    longest_palindrome();
+    //maximal_square();
+    //longest_palindrome();
+    fizz_buzz();
     return 0;
 }

@@ -13,4 +13,5 @@
 #include <string.h>
 extern void maximal_square(void);
 extern void longest_palindrome(void);
+extern void fizz_buzz(void);
 #endif /* main_h */

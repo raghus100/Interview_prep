@@ -10,6 +10,7 @@
 		DCBE71A4235E95320006B31A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBE71A3235E95320006B31A /* main.c */; };
 		DCBE71A7235E97380006B31A /* maximal_square.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBE71A6235E97380006B31A /* maximal_square.c */; };
 		DCBE71A9235FA25E0006B31A /* longest_palindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBE71A8235FA25E0006B31A /* longest_palindrome.c */; };
+		DCBE71AE235FB6930006B31A /* fizz_buzz.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBE71AD235FB6930006B31A /* fizz_buzz.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		DCBE71A5235E95CF0006B31A /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
 		DCBE71A6235E97380006B31A /* maximal_square.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maximal_square.c; sourceTree = "<group>"; };
 		DCBE71A8235FA25E0006B31A /* longest_palindrome.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longest_palindrome.c; sourceTree = "<group>"; };
+		DCBE71AD235FB6930006B31A /* fizz_buzz.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fizz_buzz.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				DCBE71A5235E95CF0006B31A /* main.h */,
 				DCBE71A6235E97380006B31A /* maximal_square.c */,
 				DCBE71A8235FA25E0006B31A /* longest_palindrome.c */,
+				DCBE71AD235FB6930006B31A /* fizz_buzz.c */,
 			);
 			path = Interview_prep;
 			sourceTree = "<group>";
@@ -128,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCBE71A7235E97380006B31A /* maximal_square.c in Sources */,
+				DCBE71AE235FB6930006B31A /* fizz_buzz.c in Sources */,
 				DCBE71A9235FA25E0006B31A /* longest_palindrome.c in Sources */,
 				DCBE71A4235E95320006B31A /* main.c in Sources */,
 			);
