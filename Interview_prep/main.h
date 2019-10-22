@@ -11,5 +11,5 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+extern void maximal_square(void);
 #endif /* main_h */

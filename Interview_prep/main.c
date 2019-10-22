@@ -6,10 +6,10 @@
 //  Copyright © 2019 ragsekar. All rights reserved.
 //
 
-#include <stdio.h>
+#include "main.h"
 
 int main(int argc, const char * argv[]) 
 {
-    printf("Hello World\n");
+    maximal_square();
     return 0;
 }

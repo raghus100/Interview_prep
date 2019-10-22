@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DCBE71A4235E95320006B31A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBE71A3235E95320006B31A /* main.c */; };
+		DCBE71A7235E97380006B31A /* maximal_square.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBE71A6235E97380006B31A /* maximal_square.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,7 @@
 		DC89378F235E717B00EB3C66 /* Interview_prep */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interview_prep; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBE71A3235E95320006B31A /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		DCBE71A5235E95CF0006B31A /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		DCBE71A6235E97380006B31A /* maximal_square.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = maximal_square.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				DCBE71A3235E95320006B31A /* main.c */,
 				DCBE71A5235E95CF0006B31A /* main.h */,
+				DCBE71A6235E97380006B31A /* maximal_square.c */,
 			);
 			path = Interview_prep;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCBE71A7235E97380006B31A /* maximal_square.c in Sources */,
 				DCBE71A4235E95320006B31A /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
