@@ -12,4 +12,5 @@
 #include <stdlib.h>
 #include <string.h>
 extern void maximal_square(void);
+extern void longest_palindrome(void);
 #endif /* main_h */

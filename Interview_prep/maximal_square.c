@@ -50,7 +50,7 @@ void maximal_square()
 {
     int row = 4;
     int cols[5] = {5};
-    int i = 0, j = 0;
+    int i = 0;
     char **matrix = calloc(row, sizeof(*matrix));
     for(i = 0; i < row; i++)
         matrix[i] = calloc(cols[0], sizeof(**matrix));

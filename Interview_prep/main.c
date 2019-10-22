@@ -11,5 +11,6 @@
 int main(int argc, const char * argv[]) 
 {
     maximal_square();
+    longest_palindrome();
     return 0;
 }
