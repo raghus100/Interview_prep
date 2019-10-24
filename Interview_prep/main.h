@@ -14,4 +14,5 @@
 extern void maximal_square(void);
 extern void longest_palindrome(void);
 extern void fizz_buzz(void);
+extern void max_profit(void);
 #endif /* main_h */

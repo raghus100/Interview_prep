@@ -19,14 +19,22 @@ int maximalSquare(char** matrix, int matrixSize, int* matrixColSize)
 {
     int i = 0, j = 0;
     int res = 0;
-    if(!matrix) return 0;
+    if(!matrix || !matrixSize || !matrixColSize) return 0;
     int **dp = calloc(matrixSize, sizeof(*dp));
     for(i = 0; i < matrixSize; i++)
         dp[i] = calloc(matrixColSize[0], sizeof(**dp));
-    for(i = 0; i < matrixSize; i++)
-        if(matrix[i][0] == '1') dp[i][0] = 1;
-    for(i = 0; i < matrixColSize[0]; i++)
-        if(matrix[0][i] == '1') dp[0][i] = 1;
+    for(i = 0; i < matrixSize; i++) {
+        if(matrix[i][0] == '1') {
+            dp[i][0] = 1;
+            res = 1;
+        }
+    }
+    for(i = 0; i < matrixColSize[0]; i++) {
+        if(matrix[0][i] == '1') {
+            dp[0][i] = 1;
+            res = 1;
+        }
+    }
     for(i = 1; i < matrixSize; i++) {
         for(j = 1; j < matrixColSize[0]; j++) {
             if(matrix[i][j] == '1') {
