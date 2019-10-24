@@ -20,16 +20,16 @@ int max(int a, int b)
 }
 int maxProfit(int* prices, int pricesSize)
 {
-    int profit = 0;
+    int cur_max_profit = 0;
     if(!prices || pricesSize <=1) return 0;
-    int min_val = prices[0];
+    int min_val_so_far = prices[0];
     for(int i = 1; i < pricesSize; i++) {
-        if(prices[i] > min_val) {
-            profit = max(profit,prices[i] - min_val);
+        if(prices[i] > min_val_so_far) {
+            cur_max_profit = max(cur_max_profit,prices[i] - min_val_so_far);
         }
-        min_val = min_of_2(min_val, prices[i]);
+        min_val_so_far = min_of_2(min_val_so_far, prices[i]);
     }
-    return profit;
+    return cur_max_profit;
 }
 void max_profit()
 {
