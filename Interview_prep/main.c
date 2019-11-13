@@ -13,6 +13,9 @@ int main(int argc, const char * argv[])
     //maximal_square();
     //longest_palindrome();
     //fizz_buzz();
-    max_profit();
+    //max_profit();
+    //matrix_spiralOrder();
+    //max_water_cointainer();
+    subset();
     return 0;
 }
