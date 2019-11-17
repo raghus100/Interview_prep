@@ -23,7 +23,7 @@ void backtrack(int* nums, int numsSize, int **res, int *res_idx, int *subset, in
 
 int** subsets(int* nums, int numsSize, int* returnSize, int** returnColumnSizes)
 {
-    *returnSize = 2 << numsSize;
+    *returnSize = 2 << (numsSize-1);
     int *subset = calloc(1, sizeof(int) * (*returnSize));
     int sub_size = 0;
     int res_idx = 0;
