@@ -21,3 +21,14 @@ int max_of_3(int a, int b, int c)
     else if(b >=a && b >=c) return b;
     else return c;
 }
+
+int compar(const void* p1, const void* p2)
+{
+    int *a = *(int **)p1;
+    int *b = *(int **)p2;
+    if(a[0] < b[0])
+        return -1;
+    if(a[0] > b[0])
+        return 1;
+    else return 0;
+}
