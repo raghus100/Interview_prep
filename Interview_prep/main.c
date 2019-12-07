@@ -35,6 +35,7 @@ int main(int argc, const char * argv[])
         printf("%d %d\n", arr[i][0], arr[i][1]);
     }*/
     //insert_interval();
-    build_binary_tree();
+    //build_binary_tree();
+    word_ladder();
     return 0;
 }

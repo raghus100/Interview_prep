@@ -14,6 +14,7 @@
 #include <limits.h>
 #include <stdbool.h>
 #include <stdlib.h>
+#include <glib.h>
 extern int min_of_2(int a, int b);
 extern int max_of_2(int a, int b);
 extern int max_of_3(int a, int b, int c);
@@ -28,4 +29,5 @@ extern void subset(void);
 extern void split_array(void);
 extern void insert_interval(void);
 extern void build_binary_tree(void);
+extern void word_ladder(void);
 #endif /* main_h */

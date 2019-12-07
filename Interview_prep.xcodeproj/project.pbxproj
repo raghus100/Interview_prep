@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DC2214DD236F9B0F0070ABFB /* max_water_container.c in Sources */ = {isa = PBXBuildFile; fileRef = DC2214DC236F9B0F0070ABFB /* max_water_container.c */; };
 		DC2214DF236F9D780070ABFB /* lib.c in Sources */ = {isa = PBXBuildFile; fileRef = DC2214DE236F9D780070ABFB /* lib.c */; };
+		DC2AE839239AC71C00359028 /* word_ladder.c in Sources */ = {isa = PBXBuildFile; fileRef = DC2AE838239AC71C00359028 /* word_ladder.c */; };
 		DC4414E92381E56D00D2BBA2 /* permutation.c in Sources */ = {isa = PBXBuildFile; fileRef = DC4414E82381E56D00D2BBA2 /* permutation.c */; };
 		DC4414EB2382F76C00D2BBA2 /* splitArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DC4414EA2382F76C00D2BBA2 /* splitArray.c */; };
 		DCA1F871238DAE0D00EC266C /* insert_interval.c in Sources */ = {isa = PBXBuildFile; fileRef = DCA1F870238DAE0D00EC266C /* insert_interval.c */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		DC2214DC236F9B0F0070ABFB /* max_water_container.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = max_water_container.c; sourceTree = "<group>"; };
 		DC2214DE236F9D780070ABFB /* lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lib.c; sourceTree = "<group>"; };
+		DC2AE838239AC71C00359028 /* word_ladder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = word_ladder.c; sourceTree = "<group>"; };
 		DC4414E82381E56D00D2BBA2 /* permutation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = permutation.c; sourceTree = "<group>"; };
 		DC4414EA2382F76C00D2BBA2 /* splitArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = splitArray.c; sourceTree = "<group>"; };
 		DC89378F235E717B00EB3C66 /* Interview_prep */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interview_prep; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +100,7 @@
 				DC4414EA2382F76C00D2BBA2 /* splitArray.c */,
 				DCA1F870238DAE0D00EC266C /* insert_interval.c */,
 				DCA654052390FC1000A84635 /* generate_binary_tree.c */,
+				DC2AE838239AC71C00359028 /* word_ladder.c */,
 			);
 			path = Interview_prep;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				DC4414E92381E56D00D2BBA2 /* permutation.c in Sources */,
 				DCB2BB2A2367907C0081E6B8 /* spiral_matrix.c in Sources */,
 				DCA1F871238DAE0D00EC266C /* insert_interval.c in Sources */,
+				DC2AE839239AC71C00359028 /* word_ladder.c in Sources */,
 				DC2214DF236F9D780070ABFB /* lib.c in Sources */,
 				DCBE71A9235FA25E0006B31A /* longest_palindrome.c in Sources */,
 				DCBE71A4235E95320006B31A /* main.c in Sources */,
@@ -205,7 +209,7 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -242,6 +246,28 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				"OTHER_CFLAGS[arch=*]" = (
+					"-I/opt/local/include/glib-2.0",
+					"-I/opt/local/lib/glib-2.0/include",
+					"-I/opt/local/include",
+					"-L/opt/local/lib",
+					"-lglib-2.0",
+					"-lintl",
+					"-Wl,-framework",
+					"-Wl,CoreFoundation",
+				);
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-I/opt/local/include/glib-2.0",
+					"-I/opt/local/lib/glib-2.0/include",
+					"-I/opt/local/include",
+					"-L/opt/local/lib",
+					"-lglib-2.0",
+					"-lintl",
+					"-Wl,-framework",
+					"-Wl,CoreFoundation",
+				);
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -263,7 +289,7 @@
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
@@ -293,6 +319,28 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "";
+				"OTHER_CFLAGS[arch=*]" = (
+					"-I/opt/local/include/glib-2.0",
+					"-I/opt/local/lib/glib-2.0/include",
+					"-I/opt/local/include",
+					"-L/opt/local/lib",
+					"-lglib-2.0",
+					"-lintl",
+					"-Wl,-framework",
+					"-Wl,CoreFoundation",
+				);
+				OTHER_LDFLAGS = "";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-I/opt/local/include/glib-2.0",
+					"-I/opt/local/lib/glib-2.0/include",
+					"-I/opt/local/include",
+					"-L/opt/local/lib",
+					"-lglib-2.0",
+					"-lintl",
+					"-Wl,-framework",
+					"-Wl,CoreFoundation",
+				);
 				SDKROOT = macosx;
 			};
 			name = Release;
