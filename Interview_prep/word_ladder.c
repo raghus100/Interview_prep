@@ -37,12 +37,14 @@ Explanation: The endWord "cog" is not in wordList, therefore no possible transfo
 #include "main.h"
 
 
-int ladderLength(char * beginWord, char * endWord, char ** wordList, int wordListSize)
+int ladderLength(char * beginWord, char * endWord, char ** wordList, int wordListSize, GHashTable *parents)
 {
     int res = 0;
     int q_size;
     char temp[10] = {0};
     char *str;
+    bool found_path = false;
+    int level = INT_MAX;
     
     GQueue *q = g_queue_new();
     GHashTable *visited = g_hash_table_new(g_str_hash, g_str_equal);
@@ -53,13 +55,15 @@ int ladderLength(char * beginWord, char * endWord, char ** wordList, int wordLis
     
     g_hash_table_add(visited, beginWord);
     g_queue_push_tail(q, beginWord);
-    
+    g_hash_table_insert(parents, beginWord, NULL);
+
     while(!g_queue_is_empty(q)) {
         q_size = g_queue_get_length(q);
         for(int j = 0; j < q_size; j++) {
             str = g_queue_pop_head(q);
             if(strcmp(str, endWord) == 0) {
-                return res+1;
+                level = min_of_2(level, res+1);
+                found_path = true;
             }
             for(int i = 0; i < strlen(str); i++) {
                 strcpy(temp, str);
@@ -69,27 +73,51 @@ int ladderLength(char * beginWord, char * endWord, char ** wordList, int wordLis
                         !g_hash_table_contains(visited, temp))) {
                         g_queue_push_tail(q, g_hash_table_lookup(word_list, temp));
                         g_hash_table_add(visited, g_hash_table_lookup(word_list, temp));
+                        g_hash_table_insert(parents, g_hash_table_lookup(word_list, temp), str);
                     }
                 }
             }
         }
         res++;
     }
-    return 0;
+    if(found_path)
+        return level;
+    else
+        return 0;
 }
 void word_ladder()
 {
-    char *beginWord = "a";
-    char *endWord = "c";
-    int wordListSize = 3;
-    char temp[][100] = {"a","b","c"};
+    char *beginWord = "hit";
+    char *endWord = "cog";
+    int wordListSize = 6;
+    char temp[][100] = {"hot","dot","dog","lot","log","cog"};
     char **wordList = calloc(1, sizeof(wordList) * wordListSize);
     for(int i = 0; i < wordListSize; i++) {
         wordList[i] = calloc(1, sizeof(wordList[i]) * 5);
         strcpy(wordList[i], temp[i]);
     }
-    int res = ladderLength(beginWord, endWord, wordList, wordListSize);
+    GHashTable *parents = g_hash_table_new(g_str_hash, g_str_equal);
+    int res = ladderLength(beginWord, endWord, wordList, wordListSize, parents);
     printf("Ladder Length : %d\n", res);
+
+    GList *list = NULL;
+    char *temp_parent = endWord;
+    list = g_list_prepend(list, temp_parent);
+    while(temp_parent) {
+        temp_parent = g_hash_table_lookup(parents, temp_parent);
+        list = g_list_prepend(list, temp_parent);
+    }
+        
+    
+    while(list) {
+        if(list->data)
+           printf("%s ", (char *)list->data);
+        list = list->next;
+    }
+    printf("\n");
+
+
+
 
 }
 

@@ -30,4 +30,5 @@ extern void split_array(void);
 extern void insert_interval(void);
 extern void build_binary_tree(void);
 extern void word_ladder(void);
+extern void add_string(void);
 #endif /* main_h */
