@@ -42,7 +42,8 @@ int main(int argc, const char * argv[])
     //buffer();
     //two_sum_three_sum();
     //average_of_levels();
-    trap_rain_water();
-    largest_rectangle_area();
+    //trap_rain_water();
+    //largest_rectangle_area();
+    sliding_winow_max();
     return 0;
 }

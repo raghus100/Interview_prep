@@ -17,6 +17,7 @@
 		DC4414EB2382F76C00D2BBA2 /* splitArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DC4414EA2382F76C00D2BBA2 /* splitArray.c */; };
 		DC80B23F23B58C4A000EF507 /* trap_rain_water.c in Sources */ = {isa = PBXBuildFile; fileRef = DC80B23E23B58C4A000EF507 /* trap_rain_water.c */; };
 		DC80B24123B5989F000EF507 /* largest_histogram.c in Sources */ = {isa = PBXBuildFile; fileRef = DC80B24023B5989F000EF507 /* largest_histogram.c */; };
+		DC80B24323B69B6B000EF507 /* sliding_window_max.c in Sources */ = {isa = PBXBuildFile; fileRef = DC80B24223B69B6B000EF507 /* sliding_window_max.c */; };
 		DC97305723A6AC8900DBCE28 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = DC97305623A6AC8900DBCE28 /* buffer.c */; };
 		DC97305923A72E5200DBCE28 /* two_sum_three_sum.c in Sources */ = {isa = PBXBuildFile; fileRef = DC97305823A72E5200DBCE28 /* two_sum_three_sum.c */; };
 		DCA1F871238DAE0D00EC266C /* insert_interval.c in Sources */ = {isa = PBXBuildFile; fileRef = DCA1F870238DAE0D00EC266C /* insert_interval.c */; };
@@ -54,6 +55,7 @@
 		DC4414EA2382F76C00D2BBA2 /* splitArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = splitArray.c; sourceTree = "<group>"; };
 		DC80B23E23B58C4A000EF507 /* trap_rain_water.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trap_rain_water.c; sourceTree = "<group>"; };
 		DC80B24023B5989F000EF507 /* largest_histogram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = largest_histogram.c; sourceTree = "<group>"; };
+		DC80B24223B69B6B000EF507 /* sliding_window_max.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sliding_window_max.c; sourceTree = "<group>"; };
 		DC89378F235E717B00EB3C66 /* Interview_prep */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interview_prep; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC97305623A6AC8900DBCE28 /* buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
 		DC97305823A72E5200DBCE28 /* two_sum_three_sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = two_sum_three_sum.c; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				DC80B23E23B58C4A000EF507 /* trap_rain_water.c */,
 				DC80B24023B5989F000EF507 /* largest_histogram.c */,
+				DC80B24223B69B6B000EF507 /* sliding_window_max.c */,
 			);
 			path = "Monotonic Queue";
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				DCE16369236CF23D00ABE48C /* number_of_ways_to_zero.c in Sources */,
 				DCE93550237A72FE00A1D321 /* subset-i.c in Sources */,
 				DCBE71B02360339F0006B31A /* stock.c in Sources */,
+				DC80B24323B69B6B000EF507 /* sliding_window_max.c in Sources */,
 				DCBE71AE235FB6930006B31A /* fizz_buzz.c in Sources */,
 				DC97305923A72E5200DBCE28 /* two_sum_three_sum.c in Sources */,
 				DC4414E92381E56D00D2BBA2 /* permutation.c in Sources */,

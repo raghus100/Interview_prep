@@ -37,4 +37,5 @@ extern void two_sum_three_sum(void);
 extern void average_of_levels(void);
 extern void trap_rain_water(void);
 extern void largest_rectangle_area(void);
+extern void sliding_winow_max(void);
 #endif /* main_h */
