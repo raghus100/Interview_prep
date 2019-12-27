@@ -31,4 +31,9 @@ extern void insert_interval(void);
 extern void build_binary_tree(void);
 extern void word_ladder(void);
 extern void add_string(void);
+extern void sliding_window_string(void);
+extern void buffer(void);
+extern void two_sum_three_sum(void);
+extern void average_of_levels(void);
+extern void trap_rain_water(void);
 #endif /* main_h */

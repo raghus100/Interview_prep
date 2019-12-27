@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC04333B23AB4C080010F9E8 /* average_of_levels.c in Sources */ = {isa = PBXBuildFile; fileRef = DC04333A23AB4C080010F9E8 /* average_of_levels.c */; };
+		DC0FD8B923A28F4300785349 /* sliding_window_string.c in Sources */ = {isa = PBXBuildFile; fileRef = DC0FD8B823A28F4300785349 /* sliding_window_string.c */; };
 		DC2214DD236F9B0F0070ABFB /* max_water_container.c in Sources */ = {isa = PBXBuildFile; fileRef = DC2214DC236F9B0F0070ABFB /* max_water_container.c */; };
 		DC2214DF236F9D780070ABFB /* lib.c in Sources */ = {isa = PBXBuildFile; fileRef = DC2214DE236F9D780070ABFB /* lib.c */; };
 		DC2AE839239AC71C00359028 /* word_ladder.c in Sources */ = {isa = PBXBuildFile; fileRef = DC2AE838239AC71C00359028 /* word_ladder.c */; };
 		DC2AE83D239C706900359028 /* add_strinng.c in Sources */ = {isa = PBXBuildFile; fileRef = DC2AE83C239C706900359028 /* add_strinng.c */; };
 		DC4414E92381E56D00D2BBA2 /* permutation.c in Sources */ = {isa = PBXBuildFile; fileRef = DC4414E82381E56D00D2BBA2 /* permutation.c */; };
 		DC4414EB2382F76C00D2BBA2 /* splitArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DC4414EA2382F76C00D2BBA2 /* splitArray.c */; };
+		DC80B23F23B58C4A000EF507 /* trap_rain_water.c in Sources */ = {isa = PBXBuildFile; fileRef = DC80B23E23B58C4A000EF507 /* trap_rain_water.c */; };
+		DC97305723A6AC8900DBCE28 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = DC97305623A6AC8900DBCE28 /* buffer.c */; };
+		DC97305923A72E5200DBCE28 /* two_sum_three_sum.c in Sources */ = {isa = PBXBuildFile; fileRef = DC97305823A72E5200DBCE28 /* two_sum_three_sum.c */; };
 		DCA1F871238DAE0D00EC266C /* insert_interval.c in Sources */ = {isa = PBXBuildFile; fileRef = DCA1F870238DAE0D00EC266C /* insert_interval.c */; };
 		DCA654062390FC1000A84635 /* generate_binary_tree.c in Sources */ = {isa = PBXBuildFile; fileRef = DCA654052390FC1000A84635 /* generate_binary_tree.c */; };
 		DCB2BB2A2367907C0081E6B8 /* spiral_matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = DCB2BB292367907C0081E6B8 /* spiral_matrix.c */; };
@@ -38,13 +43,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC04333A23AB4C080010F9E8 /* average_of_levels.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = average_of_levels.c; sourceTree = "<group>"; };
+		DC0FD8B823A28F4300785349 /* sliding_window_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sliding_window_string.c; sourceTree = "<group>"; };
 		DC2214DC236F9B0F0070ABFB /* max_water_container.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = max_water_container.c; sourceTree = "<group>"; };
 		DC2214DE236F9D780070ABFB /* lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lib.c; sourceTree = "<group>"; };
 		DC2AE838239AC71C00359028 /* word_ladder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = word_ladder.c; sourceTree = "<group>"; };
 		DC2AE83C239C706900359028 /* add_strinng.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = add_strinng.c; sourceTree = "<group>"; };
 		DC4414E82381E56D00D2BBA2 /* permutation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = permutation.c; sourceTree = "<group>"; };
 		DC4414EA2382F76C00D2BBA2 /* splitArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = splitArray.c; sourceTree = "<group>"; };
+		DC80B23E23B58C4A000EF507 /* trap_rain_water.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trap_rain_water.c; sourceTree = "<group>"; };
 		DC89378F235E717B00EB3C66 /* Interview_prep */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Interview_prep; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC97305623A6AC8900DBCE28 /* buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		DC97305823A72E5200DBCE28 /* two_sum_three_sum.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = two_sum_three_sum.c; sourceTree = "<group>"; };
 		DCA1F870238DAE0D00EC266C /* insert_interval.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = insert_interval.c; sourceTree = "<group>"; };
 		DCA654052390FC1000A84635 /* generate_binary_tree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = generate_binary_tree.c; sourceTree = "<group>"; };
 		DCB2BB292367907C0081E6B8 /* spiral_matrix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = spiral_matrix.c; sourceTree = "<group>"; };
@@ -69,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC80B23D23B58C2B000EF507 /* Monotonic Queue */ = {
+			isa = PBXGroup;
+			children = (
+				DC80B23E23B58C4A000EF507 /* trap_rain_water.c */,
+			);
+			path = "Monotonic Queue";
+			sourceTree = "<group>";
+		};
 		DC893786235E717B00EB3C66 = {
 			isa = PBXGroup;
 			children = (
@@ -88,8 +106,10 @@
 		DC893791235E717B00EB3C66 /* Interview_prep */ = {
 			isa = PBXGroup;
 			children = (
+				DC80B23D23B58C2B000EF507 /* Monotonic Queue */,
 				DCE9354E237A72E200A1D321 /* Backtrack */,
 				DCBE71A3235E95320006B31A /* main.c */,
+				DC0FD8B823A28F4300785349 /* sliding_window_string.c */,
 				DCBE71A5235E95CF0006B31A /* main.h */,
 				DCBE71A6235E97380006B31A /* maximal_square.c */,
 				DCBE71A8235FA25E0006B31A /* longest_palindrome.c */,
@@ -104,6 +124,9 @@
 				DCA654052390FC1000A84635 /* generate_binary_tree.c */,
 				DC2AE838239AC71C00359028 /* word_ladder.c */,
 				DC2AE83C239C706900359028 /* add_strinng.c */,
+				DC97305623A6AC8900DBCE28 /* buffer.c */,
+				DC97305823A72E5200DBCE28 /* two_sum_three_sum.c */,
+				DC04333A23AB4C080010F9E8 /* average_of_levels.c */,
 			);
 			path = Interview_prep;
 			sourceTree = "<group>";
@@ -175,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC4414EB2382F76C00D2BBA2 /* splitArray.c in Sources */,
+				DC04333B23AB4C080010F9E8 /* average_of_levels.c in Sources */,
 				DC2214DD236F9B0F0070ABFB /* max_water_container.c in Sources */,
 				DCBE71A7235E97380006B31A /* maximal_square.c in Sources */,
 				DCA654062390FC1000A84635 /* generate_binary_tree.c in Sources */,
@@ -182,10 +206,14 @@
 				DCE93550237A72FE00A1D321 /* subset-i.c in Sources */,
 				DCBE71B02360339F0006B31A /* stock.c in Sources */,
 				DCBE71AE235FB6930006B31A /* fizz_buzz.c in Sources */,
+				DC97305923A72E5200DBCE28 /* two_sum_three_sum.c in Sources */,
 				DC4414E92381E56D00D2BBA2 /* permutation.c in Sources */,
 				DCB2BB2A2367907C0081E6B8 /* spiral_matrix.c in Sources */,
+				DC80B23F23B58C4A000EF507 /* trap_rain_water.c in Sources */,
 				DCA1F871238DAE0D00EC266C /* insert_interval.c in Sources */,
+				DC0FD8B923A28F4300785349 /* sliding_window_string.c in Sources */,
 				DC2AE83D239C706900359028 /* add_strinng.c in Sources */,
+				DC97305723A6AC8900DBCE28 /* buffer.c in Sources */,
 				DC2AE839239AC71C00359028 /* word_ladder.c in Sources */,
 				DC2214DF236F9D780070ABFB /* lib.c in Sources */,
 				DCBE71A9235FA25E0006B31A /* longest_palindrome.c in Sources */,
@@ -232,7 +260,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -246,7 +274,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -312,7 +340,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -320,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				OTHER_CFLAGS = "";

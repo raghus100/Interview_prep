@@ -36,7 +36,12 @@ int main(int argc, const char * argv[])
     }*/
     //insert_interval();
     //build_binary_tree();
-    word_ladder();
+    //word_ladder();
     //add_string();
+    //sliding_window_string();
+    //buffer();
+    //two_sum_three_sum();
+    //average_of_levels();
+    trap_rain_water();
     return 0;
 }
