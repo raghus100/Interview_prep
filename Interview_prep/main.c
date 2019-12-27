@@ -43,5 +43,6 @@ int main(int argc, const char * argv[])
     //two_sum_three_sum();
     //average_of_levels();
     trap_rain_water();
+    largest_rectangle_area();
     return 0;
 }
