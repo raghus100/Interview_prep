@@ -14,7 +14,6 @@
 		DC2AE839239AC71C00359028 /* word_ladder.c in Sources */ = {isa = PBXBuildFile; fileRef = DC2AE838239AC71C00359028 /* word_ladder.c */; };
 		DC2AE83D239C706900359028 /* add_strinng.c in Sources */ = {isa = PBXBuildFile; fileRef = DC2AE83C239C706900359028 /* add_strinng.c */; };
 		DC4414E92381E56D00D2BBA2 /* permutation.c in Sources */ = {isa = PBXBuildFile; fileRef = DC4414E82381E56D00D2BBA2 /* permutation.c */; };
-		DC4414EB2382F76C00D2BBA2 /* splitArray.c in Sources */ = {isa = PBXBuildFile; fileRef = DC4414EA2382F76C00D2BBA2 /* splitArray.c */; };
 		DC80B23F23B58C4A000EF507 /* trap_rain_water.c in Sources */ = {isa = PBXBuildFile; fileRef = DC80B23E23B58C4A000EF507 /* trap_rain_water.c */; };
 		DC80B24123B5989F000EF507 /* largest_histogram.c in Sources */ = {isa = PBXBuildFile; fileRef = DC80B24023B5989F000EF507 /* largest_histogram.c */; };
 		DC80B24323B69B6B000EF507 /* sliding_window_max.c in Sources */ = {isa = PBXBuildFile; fileRef = DC80B24223B69B6B000EF507 /* sliding_window_max.c */; };
@@ -28,7 +27,7 @@
 		DCBE71A9235FA25E0006B31A /* longest_palindrome.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBE71A8235FA25E0006B31A /* longest_palindrome.c */; };
 		DCBE71AE235FB6930006B31A /* fizz_buzz.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBE71AD235FB6930006B31A /* fizz_buzz.c */; };
 		DCBE71B02360339F0006B31A /* stock.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBE71AF2360339F0006B31A /* stock.c */; };
-		DCE16369236CF23D00ABE48C /* number_of_ways_to_zero.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE16368236CF23D00ABE48C /* number_of_ways_to_zero.c */; };
+		DCC92BC823BB31EE00DE89DE /* parentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = DCC92BC723BB31EE00DE89DE /* parentheses.c */; };
 		DCE93550237A72FE00A1D321 /* subset-i.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE9354F237A72FE00A1D321 /* subset-i.c */; };
 		DCED56CC23B7F0CB00C47EBA /* search_in_rotated_array.c in Sources */ = {isa = PBXBuildFile; fileRef = DCED56CB23B7F0CB00C47EBA /* search_in_rotated_array.c */; };
 /* End PBXBuildFile section */
@@ -53,7 +52,6 @@
 		DC2AE838239AC71C00359028 /* word_ladder.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = word_ladder.c; sourceTree = "<group>"; };
 		DC2AE83C239C706900359028 /* add_strinng.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = add_strinng.c; sourceTree = "<group>"; };
 		DC4414E82381E56D00D2BBA2 /* permutation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = permutation.c; sourceTree = "<group>"; };
-		DC4414EA2382F76C00D2BBA2 /* splitArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = splitArray.c; sourceTree = "<group>"; };
 		DC80B23E23B58C4A000EF507 /* trap_rain_water.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trap_rain_water.c; sourceTree = "<group>"; };
 		DC80B24023B5989F000EF507 /* largest_histogram.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = largest_histogram.c; sourceTree = "<group>"; };
 		DC80B24223B69B6B000EF507 /* sliding_window_max.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sliding_window_max.c; sourceTree = "<group>"; };
@@ -69,7 +67,7 @@
 		DCBE71A8235FA25E0006B31A /* longest_palindrome.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = longest_palindrome.c; sourceTree = "<group>"; };
 		DCBE71AD235FB6930006B31A /* fizz_buzz.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = fizz_buzz.c; sourceTree = "<group>"; };
 		DCBE71AF2360339F0006B31A /* stock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stock.c; sourceTree = "<group>"; };
-		DCE16368236CF23D00ABE48C /* number_of_ways_to_zero.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = number_of_ways_to_zero.c; sourceTree = "<group>"; };
+		DCC92BC723BB31EE00DE89DE /* parentheses.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parentheses.c; sourceTree = "<group>"; };
 		DCE9354F237A72FE00A1D321 /* subset-i.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "subset-i.c"; sourceTree = "<group>"; };
 		DCED56CB23B7F0CB00C47EBA /* search_in_rotated_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = search_in_rotated_array.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,10 +123,8 @@
 				DCBE71AD235FB6930006B31A /* fizz_buzz.c */,
 				DCBE71AF2360339F0006B31A /* stock.c */,
 				DCB2BB292367907C0081E6B8 /* spiral_matrix.c */,
-				DCE16368236CF23D00ABE48C /* number_of_ways_to_zero.c */,
 				DC2214DC236F9B0F0070ABFB /* max_water_container.c */,
 				DC2214DE236F9D780070ABFB /* lib.c */,
-				DC4414EA2382F76C00D2BBA2 /* splitArray.c */,
 				DCA1F870238DAE0D00EC266C /* insert_interval.c */,
 				DCA654052390FC1000A84635 /* generate_binary_tree.c */,
 				DC2AE838239AC71C00359028 /* word_ladder.c */,
@@ -144,6 +140,7 @@
 		DCC92BC623BB29FF00DE89DE /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				DCC92BC723BB31EE00DE89DE /* parentheses.c */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -214,12 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC4414EB2382F76C00D2BBA2 /* splitArray.c in Sources */,
 				DC04333B23AB4C080010F9E8 /* average_of_levels.c in Sources */,
 				DC2214DD236F9B0F0070ABFB /* max_water_container.c in Sources */,
 				DCBE71A7235E97380006B31A /* maximal_square.c in Sources */,
 				DCA654062390FC1000A84635 /* generate_binary_tree.c in Sources */,
-				DCE16369236CF23D00ABE48C /* number_of_ways_to_zero.c in Sources */,
 				DCE93550237A72FE00A1D321 /* subset-i.c in Sources */,
 				DCBE71B02360339F0006B31A /* stock.c in Sources */,
 				DC80B24323B69B6B000EF507 /* sliding_window_max.c in Sources */,
@@ -236,6 +231,7 @@
 				DC2AE839239AC71C00359028 /* word_ladder.c in Sources */,
 				DC2214DF236F9D780070ABFB /* lib.c in Sources */,
 				DCBE71A9235FA25E0006B31A /* longest_palindrome.c in Sources */,
+				DCC92BC823BB31EE00DE89DE /* parentheses.c in Sources */,
 				DCED56CC23B7F0CB00C47EBA /* search_in_rotated_array.c in Sources */,
 				DCBE71A4235E95320006B31A /* main.c in Sources */,
 			);
