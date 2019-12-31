@@ -44,6 +44,7 @@ int main(int argc, const char * argv[])
     //average_of_levels();
     //trap_rain_water();
     //largest_rectangle_area();
-    sliding_winow_max();
+    //sliding_winow_max();
+    search_in_rotated_array();
     return 0;
 }

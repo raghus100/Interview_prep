@@ -30,6 +30,7 @@
 		DCBE71B02360339F0006B31A /* stock.c in Sources */ = {isa = PBXBuildFile; fileRef = DCBE71AF2360339F0006B31A /* stock.c */; };
 		DCE16369236CF23D00ABE48C /* number_of_ways_to_zero.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE16368236CF23D00ABE48C /* number_of_ways_to_zero.c */; };
 		DCE93550237A72FE00A1D321 /* subset-i.c in Sources */ = {isa = PBXBuildFile; fileRef = DCE9354F237A72FE00A1D321 /* subset-i.c */; };
+		DCED56CC23B7F0CB00C47EBA /* search_in_rotated_array.c in Sources */ = {isa = PBXBuildFile; fileRef = DCED56CB23B7F0CB00C47EBA /* search_in_rotated_array.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,6 +71,7 @@
 		DCBE71AF2360339F0006B31A /* stock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stock.c; sourceTree = "<group>"; };
 		DCE16368236CF23D00ABE48C /* number_of_ways_to_zero.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = number_of_ways_to_zero.c; sourceTree = "<group>"; };
 		DCE9354F237A72FE00A1D321 /* subset-i.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "subset-i.c"; sourceTree = "<group>"; };
+		DCED56CB23B7F0CB00C47EBA /* search_in_rotated_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = search_in_rotated_array.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 		DC893791235E717B00EB3C66 /* Interview_prep */ = {
 			isa = PBXGroup;
 			children = (
+				DCC92BC623BB29FF00DE89DE /* Stack */,
 				DC80B23D23B58C2B000EF507 /* Monotonic Queue */,
 				DCE9354E237A72E200A1D321 /* Backtrack */,
 				DCBE71A3235E95320006B31A /* main.c */,
@@ -133,8 +136,16 @@
 				DC97305623A6AC8900DBCE28 /* buffer.c */,
 				DC97305823A72E5200DBCE28 /* two_sum_three_sum.c */,
 				DC04333A23AB4C080010F9E8 /* average_of_levels.c */,
+				DCED56CB23B7F0CB00C47EBA /* search_in_rotated_array.c */,
 			);
 			path = Interview_prep;
+			sourceTree = "<group>";
+		};
+		DCC92BC623BB29FF00DE89DE /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 		DCE9354E237A72E200A1D321 /* Backtrack */ = {
@@ -225,6 +236,7 @@
 				DC2AE839239AC71C00359028 /* word_ladder.c in Sources */,
 				DC2214DF236F9D780070ABFB /* lib.c in Sources */,
 				DCBE71A9235FA25E0006B31A /* longest_palindrome.c in Sources */,
+				DCED56CC23B7F0CB00C47EBA /* search_in_rotated_array.c in Sources */,
 				DCBE71A4235E95320006B31A /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
